@@ -44,3 +44,38 @@ delete_setting(test_settings, 'Theme')
 # Returns:
 # Setting 'Theme; deleted successfully!
 ```
+
+### What "functions.py" outputs to the terminal
+```python
+### Display "test_settings" before changes
+
+Current User Settings:
+Theme: dark
+Language: english
+
+
+### Add setting to "test_settings"
+
+Setting 'color' added with value 'blue' successfully!
+
+Current User Settings:
+Theme: dark
+Language: english
+Color: blue
+
+
+### Delete setting from "test_settings"
+
+Setting 'color' deleted successfully!
+
+Current User Settings:
+Theme: dark
+Language: english
+
+
+### View settings after changes
+
+Current User Settings:
+Theme: dark
+Language: english
+```
